@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Search from './BaseContainers/Navbar/Components/SearchComponent.js';
 import 'antd/dist/antd.css';
+import Search from './BaseContainers/Navbar/Components/SearchComponent.js';
+
 class App extends Component {
   render() {
     return (
@@ -12,7 +13,6 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <Search/>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -21,6 +21,8 @@ class App extends Component {
           >
             Learn React
           </a>
+          <br />
+          <Search />
         </header>
       </div>
     );
