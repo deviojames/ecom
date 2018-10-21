@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css';
+import Search from './BaseContainers/Navbar/Components/SearchComponent.js';
 
 class App extends Component {
   render() {
@@ -19,6 +21,8 @@ class App extends Component {
           >
             Learn React
           </a>
+          <br />
+          <Search />
         </header>
       </div>
     );
