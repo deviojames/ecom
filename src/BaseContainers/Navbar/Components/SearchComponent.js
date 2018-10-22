@@ -5,7 +5,7 @@ const SearchAntd = Input.Search;
 
 const Search = () => (
     <SearchAntd
-      placeholder="input search text"
+      placeholder="Search in Shopping"
       enterButton="Search"
       size="large"
       onSearch={value => console.log(value)}
